@@ -79,7 +79,7 @@ def convertToScreenshot(url):
 
 
 def get_screenshot(id, ep):
-    url = f"https://api.peaceful-wolf.workers.dev/episode/{id}-episode-{ep}"
+    url = f"https://api3.peaceful-wolf.workers.dev//episode/{id}-episode-{ep}"
     data = get_json(url)
     url = data["results"]["stream"]["sources"][0]["file"]
     return convertToScreenshot(url)
