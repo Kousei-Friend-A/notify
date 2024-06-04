@@ -1,5 +1,5 @@
-Flask==3.0.2
 pyrogram
 tgcrypto
 requests
 opencv-python
+libgl1-mesa-glx
