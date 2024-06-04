@@ -1,9 +1,0 @@
-{
-    "version": 2,
-    "builds": [
-        {"src": "channelnotifier.py", "use": "@vercel/python"}
-    ],
-    "routes": [
-        {"src": "/(.*)", "dest": "channelnotifier.py"}
-    ]
-}
