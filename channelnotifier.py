@@ -42,7 +42,7 @@ def get_json(url):
 def get_aired_ep(anime):
     print("Getting aired " + anime)
 
-    url = "https://api.peaceful-wolf.workers.dev/anime/" + anime
+    url = "https://api3.peaceful-wolf.workers.dev//anime/" + anime
     data = get_json(url)
     ep = data["results"]["episodes"][-1][1]
     print("Aired ep " + ep)
@@ -50,7 +50,7 @@ def get_aired_ep(anime):
 
 
 def get_latest():
-    url = "https://api.peaceful-wolf.workers.dev/recent/1"
+    url = "https://api3.peaceful-wolf.workers.dev//recent/1"
     data = get_json(url)
     return data["results"]
 
